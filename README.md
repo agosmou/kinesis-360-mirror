@@ -1,5 +1,11 @@
 # kinesis-360-mirror
 
+I had a shower thought... i didnt have my kinesis keyboard in the shower but it was right after I was trying it out for the first time... Anyway, I thought to myself, "man, this is tough and i hate that i keep having to look down. I wish I had a visual on screen so i can keep my head up while learning the muscle memory of the kinesis keyboard and building a mental image of the keyboard." So queue a little salt, pepper, and AI and we get this: the kinesis-360-mirror. bon apetite
+
+- ale
+
+
+---
 An on-screen mirror of the Kinesis Advantage 360 Pro. Keys light up as you
 press them, so you can keep your eyes on the screen instead of hunting on the
 board.
