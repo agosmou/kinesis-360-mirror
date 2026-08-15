@@ -1,0 +1,321 @@
+:root {
+  /* Opaque: the window is a normal decorated window, not a see-through overlay. */
+  --bg: #12151b;
+  --key: rgba(255, 255, 255, 0.055);
+  --key-edge: rgba(255, 255, 255, 0.1);
+  --label: rgba(233, 238, 247, 0.42);
+  --accent: #4ade9b;
+  --accent-dim: rgba(74, 222, 155, 0.22);
+  --text: rgba(233, 238, 247, 0.72);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  overflow: hidden;
+  font: 500 12px/1 ui-sans-serif, -apple-system, "SF Pro Text", Inter, sans-serif;
+  color: var(--text);
+  /* The board is scenery, not a document. */
+  user-select: none;
+  cursor: default;
+}
+
+/* `display: flex` below would otherwise beat the `hidden` attribute. */
+.hud[hidden] {
+  display: none;
+}
+
+.hud {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 16px 10px;
+  background: var(--bg);
+}
+
+.board {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  overflow: visible;
+  /* Let mousedown fall through to the drag region on .hud. */
+  pointer-events: none;
+}
+
+/* ---- keys ---------------------------------------------------------- */
+
+.cap {
+  fill: var(--key);
+  stroke: var(--key-edge);
+  stroke-width: 2;
+  /* Release fades out; press is instant (see .down). */
+  transition: fill 420ms ease-out, stroke 420ms ease-out;
+}
+
+.legend {
+  fill: var(--label);
+  font-size: 26px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: central;
+  transition: fill 420ms ease-out;
+  pointer-events: none;
+}
+
+/* Keys with no binding on the active layer stay visually inert. */
+.key.blank .cap {
+  fill: rgba(255, 255, 255, 0.02);
+  stroke: rgba(255, 255, 255, 0.05);
+}
+
+.key.blank .legend {
+  fill: rgba(233, 238, 247, 0.17);
+}
+
+.key.down .cap {
+  fill: var(--accent);
+  stroke: var(--accent);
+  transition: none;
+}
+
+.key.down .legend {
+  fill: #0b1411;
+  transition: none;
+}
+
+/* Lingering afterglow so fast chords stay readable. */
+.key.warm .cap {
+  fill: var(--accent-dim);
+  stroke: rgba(74, 222, 155, 0.4);
+}
+
+.key.warm .legend {
+  fill: rgba(233, 238, 247, 0.9);
+}
+
+/* ---- status bar ---------------------------------------------------- */
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 2px;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: rgba(233, 238, 247, 0.38);
+}
+
+.status > * {
+  pointer-events: none;
+}
+
+/* ---- tooltips ------------------------------------------------------ */
+
+/* WKWebView does not reliably render native `title` tooltips — and never on
+   an unfocused window, which this usually is. So draw our own. */
+
+[data-tip] {
+  position: relative;
+  pointer-events: auto;
+}
+
+/* Uses ::before, leaving ::after free for inline content markers such as the
+   layer badge's "?" — sharing one pseudo-element made the marker inherit this
+   bubble's absolute positioning and float above the badge. */
+[data-tip]::before {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 9px);
+  left: 0;
+  z-index: 10;
+  width: max-content;
+  max-width: 300px;
+  padding: 9px 11px;
+  border-radius: 9px;
+  background: #262b34;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
+  color: rgba(233, 238, 247, 0.92);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: normal;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+[data-tip-right]::before {
+  left: auto;
+  right: 0;
+}
+
+[data-tip]:hover::before {
+  opacity: 1;
+}
+
+.zoom {
+  display: inline-flex;
+  gap: 4px;
+  pointer-events: auto;
+}
+
+.zoom-btn {
+  width: 20px;
+  height: 17px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(233, 238, 247, 0.55);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.zoom-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: rgba(233, 238, 247, 0.9);
+}
+
+.zoom-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ...but the switch still needs its clicks back. */
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  pointer-events: auto;
+}
+
+.switch-text {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(233, 238, 247, 0.4);
+  transition: color 160ms ease;
+}
+
+.switch-track {
+  position: relative;
+  width: 30px;
+  height: 17px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.13);
+  transition: background 160ms ease;
+}
+
+.switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 160ms cubic-bezier(0.3, 1.4, 0.6, 1);
+}
+
+.switch-track[aria-checked="true"] {
+  background: var(--accent);
+}
+
+.switch-track[aria-checked="true"] .switch-thumb {
+  transform: translateX(13px);
+}
+
+.switch-track[aria-checked="true"] ~ .switch-text,
+.switch:has(.switch-track[aria-checked="true"]) .switch-text {
+  color: var(--accent);
+}
+
+.pill {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(74, 222, 155, 0.14);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pill.inferred::after {
+  content: " ?";
+  opacity: 0.6;
+}
+
+.sep {
+  flex: 1;
+}
+
+/* ---- permission gate ----------------------------------------------- */
+
+.permission {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 32px 36px;
+  background: var(--bg);
+}
+
+.permission[hidden] {
+  display: none;
+}
+
+/* Text must not swallow the drag; the button still needs its clicks. */
+.permission h1,
+.permission p {
+  pointer-events: none;
+}
+
+.permission h1 {
+  font-size: 15px;
+  color: rgba(233, 238, 247, 0.92);
+}
+
+.permission p {
+  font-size: 12px;
+  line-height: 1.55;
+  max-width: 52ch;
+}
+
+.permission strong {
+  color: rgba(233, 238, 247, 0.9);
+  font-weight: 600;
+}
+
+.permission button {
+  align-self: flex-start;
+  padding: 7px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #0b1411;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}

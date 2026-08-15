@@ -1,0 +1,3267 @@
+{
+ "layers": [
+  {
+   "id": "default_layer",
+   "name": "Base",
+   "bindings": [
+    {
+     "behavior": "kp",
+     "args": [
+      "EQUAL"
+     ],
+     "kind": "key",
+     "usage": 46,
+     "label": "="
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N1"
+     ],
+     "kind": "key",
+     "usage": 30,
+     "label": "1"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N2"
+     ],
+     "kind": "key",
+     "usage": 31,
+     "label": "2"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N3"
+     ],
+     "kind": "key",
+     "usage": 32,
+     "label": "3"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N4"
+     ],
+     "kind": "key",
+     "usage": 33,
+     "label": "4"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N5"
+     ],
+     "kind": "key",
+     "usage": 34,
+     "label": "5"
+    },
+    {
+     "behavior": "tog",
+     "args": [
+      "1"
+     ],
+     "kind": "layer",
+     "layer": 1,
+     "label": "keypad"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "3"
+     ],
+     "kind": "layer",
+     "layer": 3,
+     "label": "Mod"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N6"
+     ],
+     "kind": "key",
+     "usage": 35,
+     "label": "6"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N7"
+     ],
+     "kind": "key",
+     "usage": 36,
+     "label": "7"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N8"
+     ],
+     "kind": "key",
+     "usage": 37,
+     "label": "8"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N9"
+     ],
+     "kind": "key",
+     "usage": 38,
+     "label": "9"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N0"
+     ],
+     "kind": "key",
+     "usage": 39,
+     "label": "0"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "MINUS"
+     ],
+     "kind": "key",
+     "usage": 45,
+     "label": "-"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "TAB"
+     ],
+     "kind": "key",
+     "usage": 43,
+     "label": "tab"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Q"
+     ],
+     "kind": "key",
+     "usage": 20,
+     "label": "Q"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "W"
+     ],
+     "kind": "key",
+     "usage": 26,
+     "label": "W"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "E"
+     ],
+     "kind": "key",
+     "usage": 8,
+     "label": "E"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "R"
+     ],
+     "kind": "key",
+     "usage": 21,
+     "label": "R"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "T"
+     ],
+     "kind": "key",
+     "usage": 23,
+     "label": "T"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2460"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2462"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Y"
+     ],
+     "kind": "key",
+     "usage": 28,
+     "label": "Y"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "U"
+     ],
+     "kind": "key",
+     "usage": 24,
+     "label": "U"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "I"
+     ],
+     "kind": "key",
+     "usage": 12,
+     "label": "I"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "O"
+     ],
+     "kind": "key",
+     "usage": 18,
+     "label": "O"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "P"
+     ],
+     "kind": "key",
+     "usage": 19,
+     "label": "P"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "BSLH"
+     ],
+     "kind": "key",
+     "usage": 49,
+     "label": "\\"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "ESC"
+     ],
+     "kind": "key",
+     "usage": 41,
+     "label": "esc"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "A"
+     ],
+     "kind": "key",
+     "usage": 4,
+     "label": "A"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "S"
+     ],
+     "kind": "key",
+     "usage": 22,
+     "label": "S"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "D"
+     ],
+     "kind": "key",
+     "usage": 7,
+     "label": "D"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F"
+     ],
+     "kind": "key",
+     "usage": 9,
+     "label": "F"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "G"
+     ],
+     "kind": "key",
+     "usage": 10,
+     "label": "G"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2461"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LCTRL"
+     ],
+     "kind": "key",
+     "usage": 224,
+     "label": "ctrl"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LALT"
+     ],
+     "kind": "key",
+     "usage": 226,
+     "label": "alt"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LGUI"
+     ],
+     "kind": "key",
+     "usage": 227,
+     "label": "cmd"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RCTRL"
+     ],
+     "kind": "key",
+     "usage": 228,
+     "label": "ctrl"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2463"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "H"
+     ],
+     "kind": "key",
+     "usage": 11,
+     "label": "H"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "J"
+     ],
+     "kind": "key",
+     "usage": 13,
+     "label": "J"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "K"
+     ],
+     "kind": "key",
+     "usage": 14,
+     "label": "K"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "L"
+     ],
+     "kind": "key",
+     "usage": 15,
+     "label": "L"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "SEMI"
+     ],
+     "kind": "key",
+     "usage": 51,
+     "label": ";"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "SQT"
+     ],
+     "kind": "key",
+     "usage": 52,
+     "label": "'"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LSHFT"
+     ],
+     "kind": "key",
+     "usage": 225,
+     "label": "shift"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Z"
+     ],
+     "kind": "key",
+     "usage": 29,
+     "label": "Z"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "X"
+     ],
+     "kind": "key",
+     "usage": 27,
+     "label": "X"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "C"
+     ],
+     "kind": "key",
+     "usage": 6,
+     "label": "C"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "V"
+     ],
+     "kind": "key",
+     "usage": 25,
+     "label": "V"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "B"
+     ],
+     "kind": "key",
+     "usage": 5,
+     "label": "B"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "HOME"
+     ],
+     "kind": "key",
+     "usage": 74,
+     "label": "home"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "PG_UP"
+     ],
+     "kind": "key",
+     "usage": 75,
+     "label": "pgup"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N"
+     ],
+     "kind": "key",
+     "usage": 17,
+     "label": "N"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "M"
+     ],
+     "kind": "key",
+     "usage": 16,
+     "label": "M"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "COMMA"
+     ],
+     "kind": "key",
+     "usage": 54,
+     "label": ","
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "DOT"
+     ],
+     "kind": "key",
+     "usage": 55,
+     "label": "."
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "FSLH"
+     ],
+     "kind": "key",
+     "usage": 56,
+     "label": "/"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RSHFT"
+     ],
+     "kind": "key",
+     "usage": 229,
+     "label": "shift"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "2"
+     ],
+     "kind": "layer",
+     "layer": 2,
+     "label": "fn"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "GRAVE"
+     ],
+     "kind": "key",
+     "usage": 53,
+     "label": "`"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "CAPS"
+     ],
+     "kind": "key",
+     "usage": 57,
+     "label": "caps"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LEFT"
+     ],
+     "kind": "key",
+     "usage": 80,
+     "label": "\u2190"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RIGHT"
+     ],
+     "kind": "key",
+     "usage": 79,
+     "label": "\u2192"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "BSPC"
+     ],
+     "kind": "key",
+     "usage": 42,
+     "label": "bksp"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "DEL"
+     ],
+     "kind": "key",
+     "usage": 76,
+     "label": "del"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "END"
+     ],
+     "kind": "key",
+     "usage": 77,
+     "label": "end"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "PG_DN"
+     ],
+     "kind": "key",
+     "usage": 78,
+     "label": "pgdn"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "ENTER"
+     ],
+     "kind": "key",
+     "usage": 40,
+     "label": "\u21b5"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "SPACE"
+     ],
+     "kind": "key",
+     "usage": 44,
+     "label": "space"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "UP"
+     ],
+     "kind": "key",
+     "usage": 82,
+     "label": "\u2191"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "DOWN"
+     ],
+     "kind": "key",
+     "usage": 81,
+     "label": "\u2193"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LBKT"
+     ],
+     "kind": "key",
+     "usage": 47,
+     "label": "["
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RBKT"
+     ],
+     "kind": "key",
+     "usage": 48,
+     "label": "]"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "2"
+     ],
+     "kind": "layer",
+     "layer": 2,
+     "label": "fn"
+    }
+   ]
+  },
+  {
+   "id": "keypad",
+   "name": "Kp",
+   "bindings": [
+    {
+     "behavior": "kp",
+     "args": [
+      "EQUAL"
+     ],
+     "kind": "key",
+     "usage": 46,
+     "label": "="
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N1"
+     ],
+     "kind": "key",
+     "usage": 30,
+     "label": "1"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N2"
+     ],
+     "kind": "key",
+     "usage": 31,
+     "label": "2"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N3"
+     ],
+     "kind": "key",
+     "usage": 32,
+     "label": "3"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N4"
+     ],
+     "kind": "key",
+     "usage": 33,
+     "label": "4"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N5"
+     ],
+     "kind": "key",
+     "usage": 34,
+     "label": "5"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "3"
+     ],
+     "kind": "layer",
+     "layer": 3,
+     "label": "Mod"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N6"
+     ],
+     "kind": "key",
+     "usage": 35,
+     "label": "6"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_NUM"
+     ],
+     "kind": "key",
+     "usage": 83,
+     "label": "num"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_EQUAL"
+     ],
+     "kind": "key",
+     "usage": 103,
+     "label": "="
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_DIVIDE"
+     ],
+     "kind": "key",
+     "usage": 84,
+     "label": "/"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_MULTIPLY"
+     ],
+     "kind": "key",
+     "usage": 85,
+     "label": "*"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "MINUS"
+     ],
+     "kind": "key",
+     "usage": 45,
+     "label": "-"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "TAB"
+     ],
+     "kind": "key",
+     "usage": 43,
+     "label": "tab"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Q"
+     ],
+     "kind": "key",
+     "usage": 20,
+     "label": "Q"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "W"
+     ],
+     "kind": "key",
+     "usage": 26,
+     "label": "W"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "E"
+     ],
+     "kind": "key",
+     "usage": 8,
+     "label": "E"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "R"
+     ],
+     "kind": "key",
+     "usage": 21,
+     "label": "R"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "T"
+     ],
+     "kind": "key",
+     "usage": 23,
+     "label": "T"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2460"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2462"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Y"
+     ],
+     "kind": "key",
+     "usage": 28,
+     "label": "Y"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N7"
+     ],
+     "kind": "key",
+     "usage": 95,
+     "label": "7"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N8"
+     ],
+     "kind": "key",
+     "usage": 96,
+     "label": "8"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N9"
+     ],
+     "kind": "key",
+     "usage": 97,
+     "label": "9"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_MINUS"
+     ],
+     "kind": "key",
+     "usage": 86,
+     "label": "-"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "BSLH"
+     ],
+     "kind": "key",
+     "usage": 49,
+     "label": "\\"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "ESC"
+     ],
+     "kind": "key",
+     "usage": 41,
+     "label": "esc"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "A"
+     ],
+     "kind": "key",
+     "usage": 4,
+     "label": "A"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "S"
+     ],
+     "kind": "key",
+     "usage": 22,
+     "label": "S"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "D"
+     ],
+     "kind": "key",
+     "usage": 7,
+     "label": "D"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F"
+     ],
+     "kind": "key",
+     "usage": 9,
+     "label": "F"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "G"
+     ],
+     "kind": "key",
+     "usage": 10,
+     "label": "G"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2461"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LCTRL"
+     ],
+     "kind": "key",
+     "usage": 224,
+     "label": "ctrl"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LALT"
+     ],
+     "kind": "key",
+     "usage": 226,
+     "label": "alt"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LGUI"
+     ],
+     "kind": "key",
+     "usage": 227,
+     "label": "cmd"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RCTRL"
+     ],
+     "kind": "key",
+     "usage": 228,
+     "label": "ctrl"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2463"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "H"
+     ],
+     "kind": "key",
+     "usage": 11,
+     "label": "H"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N4"
+     ],
+     "kind": "key",
+     "usage": 92,
+     "label": "4"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N5"
+     ],
+     "kind": "key",
+     "usage": 93,
+     "label": "5"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N6"
+     ],
+     "kind": "key",
+     "usage": 94,
+     "label": "6"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_PLUS"
+     ],
+     "kind": "key",
+     "usage": 87,
+     "label": "+"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "SQT"
+     ],
+     "kind": "key",
+     "usage": 52,
+     "label": "'"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LSHFT"
+     ],
+     "kind": "key",
+     "usage": 225,
+     "label": "shift"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "Z"
+     ],
+     "kind": "key",
+     "usage": 29,
+     "label": "Z"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "X"
+     ],
+     "kind": "key",
+     "usage": 27,
+     "label": "X"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "C"
+     ],
+     "kind": "key",
+     "usage": 6,
+     "label": "C"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "V"
+     ],
+     "kind": "key",
+     "usage": 25,
+     "label": "V"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "B"
+     ],
+     "kind": "key",
+     "usage": 5,
+     "label": "B"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "HOME"
+     ],
+     "kind": "key",
+     "usage": 74,
+     "label": "home"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "PG_UP"
+     ],
+     "kind": "key",
+     "usage": 75,
+     "label": "pgup"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "N"
+     ],
+     "kind": "key",
+     "usage": 17,
+     "label": "N"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N1"
+     ],
+     "kind": "key",
+     "usage": 89,
+     "label": "1"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N2"
+     ],
+     "kind": "key",
+     "usage": 90,
+     "label": "2"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N3"
+     ],
+     "kind": "key",
+     "usage": 91,
+     "label": "3"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_ENTER"
+     ],
+     "kind": "key",
+     "usage": 88,
+     "label": "\u21b5"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RSHFT"
+     ],
+     "kind": "key",
+     "usage": 229,
+     "label": "shift"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "2"
+     ],
+     "kind": "layer",
+     "layer": 2,
+     "label": "fn"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "GRAVE"
+     ],
+     "kind": "key",
+     "usage": 53,
+     "label": "`"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "CAPS"
+     ],
+     "kind": "key",
+     "usage": 57,
+     "label": "caps"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "LEFT"
+     ],
+     "kind": "key",
+     "usage": 80,
+     "label": "\u2190"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RIGHT"
+     ],
+     "kind": "key",
+     "usage": 79,
+     "label": "\u2192"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "BSPC"
+     ],
+     "kind": "key",
+     "usage": 42,
+     "label": "bksp"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "DEL"
+     ],
+     "kind": "key",
+     "usage": 76,
+     "label": "del"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "END"
+     ],
+     "kind": "key",
+     "usage": 77,
+     "label": "end"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "PG_DN"
+     ],
+     "kind": "key",
+     "usage": 78,
+     "label": "pgdn"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "ENTER"
+     ],
+     "kind": "key",
+     "usage": 40,
+     "label": "\u21b5"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_N0"
+     ],
+     "kind": "key",
+     "usage": 98,
+     "label": "0"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "UP"
+     ],
+     "kind": "key",
+     "usage": 82,
+     "label": "\u2191"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "DOWN"
+     ],
+     "kind": "key",
+     "usage": 81,
+     "label": "\u2193"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "KP_DOT"
+     ],
+     "kind": "key",
+     "usage": 99,
+     "label": "."
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "RBKT"
+     ],
+     "kind": "key",
+     "usage": 48,
+     "label": "]"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "2"
+     ],
+     "kind": "layer",
+     "layer": 2,
+     "label": "fn"
+    }
+   ]
+  },
+  {
+   "id": "fn",
+   "name": "Fn",
+   "bindings": [
+    {
+     "behavior": "kp",
+     "args": [
+      "F1"
+     ],
+     "kind": "key",
+     "usage": 58,
+     "label": "F1"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F2"
+     ],
+     "kind": "key",
+     "usage": 59,
+     "label": "F2"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F3"
+     ],
+     "kind": "key",
+     "usage": 60,
+     "label": "F3"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F4"
+     ],
+     "kind": "key",
+     "usage": 61,
+     "label": "F4"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F5"
+     ],
+     "kind": "key",
+     "usage": 62,
+     "label": "F5"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F6"
+     ],
+     "kind": "key",
+     "usage": 63,
+     "label": "F6"
+    },
+    {
+     "behavior": "tog",
+     "args": [
+      "1"
+     ],
+     "kind": "layer",
+     "layer": 1,
+     "label": "keypad"
+    },
+    {
+     "behavior": "mo",
+     "args": [
+      "3"
+     ],
+     "kind": "layer",
+     "layer": 3,
+     "label": "Mod"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F7"
+     ],
+     "kind": "key",
+     "usage": 64,
+     "label": "F7"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F8"
+     ],
+     "kind": "key",
+     "usage": 65,
+     "label": "F8"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F9"
+     ],
+     "kind": "key",
+     "usage": 66,
+     "label": "F9"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F10"
+     ],
+     "kind": "key",
+     "usage": 67,
+     "label": "F10"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F11"
+     ],
+     "kind": "key",
+     "usage": 68,
+     "label": "F11"
+    },
+    {
+     "behavior": "kp",
+     "args": [
+      "F12"
+     ],
+     "kind": "key",
+     "usage": 69,
+     "label": "F12"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2460"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2462"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2461"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2463"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    }
+   ]
+  },
+  {
+   "id": "mod",
+   "name": "Mod",
+   "bindings": [
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_SEL",
+      "0"
+     ],
+     "kind": "other",
+     "label": "bt BT SEL 0"
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_SEL",
+      "1"
+     ],
+     "kind": "other",
+     "label": "bt BT SEL 1"
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_SEL",
+      "2"
+     ],
+     "kind": "other",
+     "label": "bt BT SEL 2"
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_SEL",
+      "3"
+     ],
+     "kind": "other",
+     "label": "bt BT SEL 3"
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_SEL",
+      "4"
+     ],
+     "kind": "other",
+     "label": "bt BT SEL 4"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "keypad"
+    },
+    {
+     "behavior": "trans",
+     "args": [],
+     "kind": "trans",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "bootloader",
+     "args": [],
+     "kind": "other",
+     "label": "bootloader"
+    },
+    {
+     "behavior": "bootloader",
+     "args": [],
+     "kind": "other",
+     "label": "bootloader"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "studio_unlock",
+     "args": [],
+     "kind": "other",
+     "label": "studio unlock"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "\u2461"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "bt",
+     "args": [
+      "BT_CLR"
+     ],
+     "kind": "other",
+     "label": "bt BT CLR"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "stp",
+     "args": [
+      "STP_BAT"
+     ],
+     "kind": "other",
+     "label": "stp STP BAT"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "macro_ver",
+     "args": [],
+     "kind": "other",
+     "label": "macro ver"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "fn"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "bl",
+     "args": [
+      "BL_TOG"
+     ],
+     "kind": "other",
+     "label": "bl BL TOG"
+    },
+    {
+     "behavior": "rgb_ug",
+     "args": [
+      "RGB_TOG"
+     ],
+     "kind": "other",
+     "label": "rgb ug RGB TOG"
+    },
+    {
+     "behavior": "bl",
+     "args": [
+      "BL_INC"
+     ],
+     "kind": "other",
+     "label": "bl BL INC"
+    },
+    {
+     "behavior": "bl",
+     "args": [
+      "BL_DEC"
+     ],
+     "kind": "other",
+     "label": "bl BL DEC"
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": ""
+    },
+    {
+     "behavior": "none",
+     "args": [],
+     "kind": "none",
+     "label": "fn"
+    }
+   ]
+  }
+ ],
+ "usageToPositions": {
+  "4": [
+   29
+  ],
+  "5": [
+   51
+  ],
+  "6": [
+   49
+  ],
+  "7": [
+   31
+  ],
+  "8": [
+   17
+  ],
+  "9": [
+   32
+  ],
+  "10": [
+   33
+  ],
+  "11": [
+   40
+  ],
+  "12": [
+   24
+  ],
+  "13": [
+   41
+  ],
+  "14": [
+   42
+  ],
+  "15": [
+   43
+  ],
+  "16": [
+   55
+  ],
+  "17": [
+   54
+  ],
+  "18": [
+   25
+  ],
+  "19": [
+   26
+  ],
+  "20": [
+   15
+  ],
+  "21": [
+   18
+  ],
+  "22": [
+   30
+  ],
+  "23": [
+   19
+  ],
+  "24": [
+   23
+  ],
+  "25": [
+   50
+  ],
+  "26": [
+   16
+  ],
+  "27": [
+   48
+  ],
+  "28": [
+   22
+  ],
+  "29": [
+   47
+  ],
+  "30": [
+   1
+  ],
+  "31": [
+   2
+  ],
+  "32": [
+   3
+  ],
+  "33": [
+   4
+  ],
+  "34": [
+   5
+  ],
+  "35": [
+   8
+  ],
+  "36": [
+   9
+  ],
+  "37": [
+   10
+  ],
+  "38": [
+   11
+  ],
+  "39": [
+   12
+  ],
+  "40": [
+   69
+  ],
+  "41": [
+   28
+  ],
+  "42": [
+   65
+  ],
+  "43": [
+   14
+  ],
+  "44": [
+   70
+  ],
+  "45": [
+   13
+  ],
+  "46": [
+   0
+  ],
+  "47": [
+   73
+  ],
+  "48": [
+   74
+  ],
+  "49": [
+   27
+  ],
+  "51": [
+   44
+  ],
+  "52": [
+   45
+  ],
+  "53": [
+   61
+  ],
+  "54": [
+   56
+  ],
+  "55": [
+   57
+  ],
+  "56": [
+   58
+  ],
+  "57": [
+   62
+  ],
+  "58": [
+   0
+  ],
+  "59": [
+   1
+  ],
+  "60": [
+   2
+  ],
+  "61": [
+   3
+  ],
+  "62": [
+   4
+  ],
+  "63": [
+   5
+  ],
+  "64": [
+   8
+  ],
+  "65": [
+   9
+  ],
+  "66": [
+   10
+  ],
+  "67": [
+   11
+  ],
+  "68": [
+   12
+  ],
+  "69": [
+   13
+  ],
+  "74": [
+   52
+  ],
+  "75": [
+   53
+  ],
+  "76": [
+   66
+  ],
+  "77": [
+   67
+  ],
+  "78": [
+   68
+  ],
+  "79": [
+   64
+  ],
+  "80": [
+   63
+  ],
+  "81": [
+   72
+  ],
+  "82": [
+   71
+  ],
+  "83": [
+   9
+  ],
+  "84": [
+   11
+  ],
+  "85": [
+   12
+  ],
+  "86": [
+   26
+  ],
+  "87": [
+   44
+  ],
+  "88": [
+   58
+  ],
+  "89": [
+   55
+  ],
+  "90": [
+   56
+  ],
+  "91": [
+   57
+  ],
+  "92": [
+   41
+  ],
+  "93": [
+   42
+  ],
+  "94": [
+   43
+  ],
+  "95": [
+   23
+  ],
+  "96": [
+   24
+  ],
+  "97": [
+   25
+  ],
+  "98": [
+   70
+  ],
+  "99": [
+   73
+  ],
+  "103": [
+   10
+  ],
+  "224": [
+   35
+  ],
+  "225": [
+   46
+  ],
+  "226": [
+   36
+  ],
+  "227": [
+   37
+  ],
+  "228": [
+   38
+  ],
+  "229": [
+   59
+  ]
+ },
+ "usageToPositionsByLayer": [
+  {
+   "4": [
+    29
+   ],
+   "5": [
+    51
+   ],
+   "6": [
+    49
+   ],
+   "7": [
+    31
+   ],
+   "8": [
+    17
+   ],
+   "9": [
+    32
+   ],
+   "10": [
+    33
+   ],
+   "11": [
+    40
+   ],
+   "12": [
+    24
+   ],
+   "13": [
+    41
+   ],
+   "14": [
+    42
+   ],
+   "15": [
+    43
+   ],
+   "16": [
+    55
+   ],
+   "17": [
+    54
+   ],
+   "18": [
+    25
+   ],
+   "19": [
+    26
+   ],
+   "20": [
+    15
+   ],
+   "21": [
+    18
+   ],
+   "22": [
+    30
+   ],
+   "23": [
+    19
+   ],
+   "24": [
+    23
+   ],
+   "25": [
+    50
+   ],
+   "26": [
+    16
+   ],
+   "27": [
+    48
+   ],
+   "28": [
+    22
+   ],
+   "29": [
+    47
+   ],
+   "30": [
+    1
+   ],
+   "31": [
+    2
+   ],
+   "32": [
+    3
+   ],
+   "33": [
+    4
+   ],
+   "34": [
+    5
+   ],
+   "35": [
+    8
+   ],
+   "36": [
+    9
+   ],
+   "37": [
+    10
+   ],
+   "38": [
+    11
+   ],
+   "39": [
+    12
+   ],
+   "40": [
+    69
+   ],
+   "41": [
+    28
+   ],
+   "42": [
+    65
+   ],
+   "43": [
+    14
+   ],
+   "44": [
+    70
+   ],
+   "45": [
+    13
+   ],
+   "46": [
+    0
+   ],
+   "47": [
+    73
+   ],
+   "48": [
+    74
+   ],
+   "49": [
+    27
+   ],
+   "51": [
+    44
+   ],
+   "52": [
+    45
+   ],
+   "53": [
+    61
+   ],
+   "54": [
+    56
+   ],
+   "55": [
+    57
+   ],
+   "56": [
+    58
+   ],
+   "57": [
+    62
+   ],
+   "74": [
+    52
+   ],
+   "75": [
+    53
+   ],
+   "76": [
+    66
+   ],
+   "77": [
+    67
+   ],
+   "78": [
+    68
+   ],
+   "79": [
+    64
+   ],
+   "80": [
+    63
+   ],
+   "81": [
+    72
+   ],
+   "82": [
+    71
+   ],
+   "224": [
+    35
+   ],
+   "225": [
+    46
+   ],
+   "226": [
+    36
+   ],
+   "227": [
+    37
+   ],
+   "228": [
+    38
+   ],
+   "229": [
+    59
+   ]
+  },
+  {
+   "4": [
+    29
+   ],
+   "5": [
+    51
+   ],
+   "6": [
+    49
+   ],
+   "7": [
+    31
+   ],
+   "8": [
+    17
+   ],
+   "9": [
+    32
+   ],
+   "10": [
+    33
+   ],
+   "11": [
+    40
+   ],
+   "17": [
+    54
+   ],
+   "20": [
+    15
+   ],
+   "21": [
+    18
+   ],
+   "22": [
+    30
+   ],
+   "23": [
+    19
+   ],
+   "25": [
+    50
+   ],
+   "26": [
+    16
+   ],
+   "27": [
+    48
+   ],
+   "28": [
+    22
+   ],
+   "29": [
+    47
+   ],
+   "30": [
+    1
+   ],
+   "31": [
+    2
+   ],
+   "32": [
+    3
+   ],
+   "33": [
+    4
+   ],
+   "34": [
+    5
+   ],
+   "35": [
+    8
+   ],
+   "40": [
+    69
+   ],
+   "41": [
+    28
+   ],
+   "42": [
+    65
+   ],
+   "43": [
+    14
+   ],
+   "45": [
+    13
+   ],
+   "46": [
+    0
+   ],
+   "48": [
+    74
+   ],
+   "49": [
+    27
+   ],
+   "52": [
+    45
+   ],
+   "53": [
+    61
+   ],
+   "57": [
+    62
+   ],
+   "74": [
+    52
+   ],
+   "75": [
+    53
+   ],
+   "76": [
+    66
+   ],
+   "77": [
+    67
+   ],
+   "78": [
+    68
+   ],
+   "79": [
+    64
+   ],
+   "80": [
+    63
+   ],
+   "81": [
+    72
+   ],
+   "82": [
+    71
+   ],
+   "83": [
+    9
+   ],
+   "84": [
+    11
+   ],
+   "85": [
+    12
+   ],
+   "86": [
+    26
+   ],
+   "87": [
+    44
+   ],
+   "88": [
+    58
+   ],
+   "89": [
+    55
+   ],
+   "90": [
+    56
+   ],
+   "91": [
+    57
+   ],
+   "92": [
+    41
+   ],
+   "93": [
+    42
+   ],
+   "94": [
+    43
+   ],
+   "95": [
+    23
+   ],
+   "96": [
+    24
+   ],
+   "97": [
+    25
+   ],
+   "98": [
+    70
+   ],
+   "99": [
+    73
+   ],
+   "103": [
+    10
+   ],
+   "224": [
+    35
+   ],
+   "225": [
+    46
+   ],
+   "226": [
+    36
+   ],
+   "227": [
+    37
+   ],
+   "228": [
+    38
+   ],
+   "229": [
+    59
+   ]
+  },
+  {
+   "4": [
+    29
+   ],
+   "5": [
+    51
+   ],
+   "6": [
+    49
+   ],
+   "7": [
+    31
+   ],
+   "8": [
+    17
+   ],
+   "9": [
+    32
+   ],
+   "10": [
+    33
+   ],
+   "11": [
+    40
+   ],
+   "12": [
+    24
+   ],
+   "13": [
+    41
+   ],
+   "14": [
+    42
+   ],
+   "15": [
+    43
+   ],
+   "16": [
+    55
+   ],
+   "17": [
+    54
+   ],
+   "18": [
+    25
+   ],
+   "19": [
+    26
+   ],
+   "20": [
+    15
+   ],
+   "21": [
+    18
+   ],
+   "22": [
+    30
+   ],
+   "23": [
+    19
+   ],
+   "24": [
+    23
+   ],
+   "25": [
+    50
+   ],
+   "26": [
+    16
+   ],
+   "27": [
+    48
+   ],
+   "28": [
+    22
+   ],
+   "29": [
+    47
+   ],
+   "40": [
+    69
+   ],
+   "41": [
+    28
+   ],
+   "42": [
+    65
+   ],
+   "43": [
+    14
+   ],
+   "44": [
+    70
+   ],
+   "47": [
+    73
+   ],
+   "48": [
+    74
+   ],
+   "49": [
+    27
+   ],
+   "51": [
+    44
+   ],
+   "52": [
+    45
+   ],
+   "53": [
+    61
+   ],
+   "54": [
+    56
+   ],
+   "55": [
+    57
+   ],
+   "56": [
+    58
+   ],
+   "57": [
+    62
+   ],
+   "58": [
+    0
+   ],
+   "59": [
+    1
+   ],
+   "60": [
+    2
+   ],
+   "61": [
+    3
+   ],
+   "62": [
+    4
+   ],
+   "63": [
+    5
+   ],
+   "64": [
+    8
+   ],
+   "65": [
+    9
+   ],
+   "66": [
+    10
+   ],
+   "67": [
+    11
+   ],
+   "68": [
+    12
+   ],
+   "69": [
+    13
+   ],
+   "74": [
+    52
+   ],
+   "75": [
+    53
+   ],
+   "76": [
+    66
+   ],
+   "77": [
+    67
+   ],
+   "78": [
+    68
+   ],
+   "79": [
+    64
+   ],
+   "80": [
+    63
+   ],
+   "81": [
+    72
+   ],
+   "82": [
+    71
+   ],
+   "224": [
+    35
+   ],
+   "225": [
+    46
+   ],
+   "226": [
+    36
+   ],
+   "227": [
+    37
+   ],
+   "228": [
+    38
+   ],
+   "229": [
+    59
+   ]
+  },
+  {}
+ ]
+}

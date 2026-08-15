@@ -1,0 +1,13 @@
+{
+  "name": "kinesis-360-mirror",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "install:mac": "sh scripts/install-mac.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}

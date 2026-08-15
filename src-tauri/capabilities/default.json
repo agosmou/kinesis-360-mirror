@@ -1,0 +1,10 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window. Deliberately minimal: this app monitors keystrokes, so every extra permission is one a reviewer has to rule out. core:window:default is read-only and does not include start-dragging, which data-tauri-drag-region needs.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging"
+  ]
+}

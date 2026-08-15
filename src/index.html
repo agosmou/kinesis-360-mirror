@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kinesis 360 Mirror</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- The whole panel is a drag handle, not just the title bar. Children set
+         `pointer-events: none` so they don't swallow the mousedown first. -->
+    <div id="hud" class="hud" data-tauri-drag-region>
+      <svg id="board" class="board" xmlns="http://www.w3.org/2000/svg"></svg>
+
+      <footer class="status" data-tauri-drag-region>
+        <span
+          class="pill"
+          id="layer"
+          data-tip="Active layer of your ZMK keymap (Base / Kp / Fn / Mod). The keyboard resolves layers onboard and a momentary-layer key sends nothing to the computer, so this is inferred from keys only one layer can produce. A ? means it's a guess."
+          >Base</span
+        >
+        <span class="sep"></span>
+        <span id="hint">waiting for keys…</span>
+
+        <span
+          class="zoom"
+          data-tip="Resize the board. It always scales to fit the window on its own; these step the window itself, keeping the board's proportions so no space is wasted."
+          data-tip-right
+        >
+          <button class="zoom-btn" id="zoom-out" type="button" aria-label="Smaller">
+            −
+          </button>
+          <button class="zoom-btn" id="zoom-in" type="button" aria-label="Larger">
+            +
+          </button>
+        </span>
+
+        <span
+          class="switch"
+          data-tip="Keep this window above all others, so the board stays visible while you type in another app."
+          data-tip-right
+        >
+          <span class="switch-text">on top</span>
+          <button
+            class="switch-track"
+            id="ontop"
+            type="button"
+            role="switch"
+            aria-checked="true"
+            aria-label="Always on top"
+          >
+            <span class="switch-thumb"></span>
+          </button>
+        </span>
+      </footer>
+    </div>
+
+    <div id="permission" class="permission" data-tauri-drag-region hidden>
+      <h1>Input Monitoring required</h1>
+      <p>
+        macOS won't let the mirror observe your keyboard until you grant Input
+        Monitoring. Approve the prompt, or enable it under
+        <strong>System Settings → Privacy &amp; Security → Input Monitoring</strong>,
+        then relaunch.
+      </p>
+      <button id="grant">Request permission</button>
+    </div>
+  </body>
+</html>
